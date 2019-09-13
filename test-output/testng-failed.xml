@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MMT Automation with JAVAGENERICS]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="mmt.Listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="MMT Automation(failed)">
+    <classes>
+      <class name="mmt.Tests.SearchFlightTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchFlights"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mmt.Tests.SearchFlightTest -->
+    </classes>
+  </test> <!-- MMT Automation(failed) -->
+</suite> <!-- Failed suite [MMT Automation with JAVAGENERICS] -->

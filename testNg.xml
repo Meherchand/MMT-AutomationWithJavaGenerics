@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MMT Automation with JAVAGENERICS">
+
+
+<!-- testNg file also known as testrunner file ,you can create multiple testNG files like regression,sanity-->
+<listeners>
+	 <listener class-name="mmt.Listeners.ExtentReportListener" /> 
+	</listeners>
+	<test name="MMT Automation">
+ 
+
+			<classes>
+
+
+			
+				<class name="mmt.Tests.SearchFlightTest"></class>
+
+				
+
+
+				
+</classes>
+
+
+</test>
+</suite>
