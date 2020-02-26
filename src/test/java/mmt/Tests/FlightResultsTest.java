@@ -21,6 +21,7 @@ public class FlightResultsTest extends BaseTest {
 		obj.getInstance(MMTFlightResultPage.class).getTotalRecordsNonStop();
 		obj.getInstance(MMTFlightResultPage.class).getTotalRecordsOneStop();
 		//obj.getInstance(MMTFlightResultPage.class).UserSelectedDetails();
+		System.out.print("hello,my commit from local");
 		
 	}
 
