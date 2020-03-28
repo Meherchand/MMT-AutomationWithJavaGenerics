@@ -27,12 +27,13 @@ public class SearchFlightTest extends BaseTest {
 		
 		System.out.print(title);
 	}
-	@Test(priority=2)
+	@Test(priority=3)
 	public void searchFlights() throws Exception
 	{
 		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
 		log4j.info("TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
 		LogStatus.pass("passed");
+		System.out.print("test");
 	}
 
 }
