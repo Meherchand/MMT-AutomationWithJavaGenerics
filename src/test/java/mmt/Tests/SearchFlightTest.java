@@ -26,6 +26,7 @@ public class SearchFlightTest extends BaseTest {
 		String title=obj.getInstance(MMTHomePage.class).getTitle();
 		
 		System.out.print(title);
+		System .out.pritnln("testing changs at remo-multiple places1");
 	}
 	@Test(priority=2)
 	public void searchFlights() throws Exception
