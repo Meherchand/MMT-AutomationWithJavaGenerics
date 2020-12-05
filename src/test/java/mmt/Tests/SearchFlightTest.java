@@ -28,7 +28,7 @@ public class SearchFlightTest extends BaseTest {
 		System.out.print(title);
 		System .out.println("testing changs at remo-multiple places1");
 	}
-	@Test(priority=3)
+	@Test(priority=4)
 	public void searchFlights() throws Exception
 	{
 		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
@@ -37,12 +37,13 @@ public class SearchFlightTest extends BaseTest {
 		System.out.print("test");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=5)
 	public void deleteFlights() throws Exception
 	{
 		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
 		log4j.info("deleteFileAdded");
 		LogStatus.pass("passed");
+		System.out.print("testline added for delete");
 	}
 
 }
