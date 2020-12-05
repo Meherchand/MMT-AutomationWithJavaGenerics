@@ -22,7 +22,7 @@ public class FlightResultsTest extends BaseTest {
 		obj.getInstance(MMTFlightResultPage.class).getTotalRecordsOneStop();
 		//obj.getInstance(MMTFlightResultPage.class).UserSelectedDetails();
 		System.out.print("hello,this file is changedss");
-		System .out.pritnln("testing changs at remo-multiple places2");
+		System .out.println("testing changs at remo-multiple places2");
 		
 		
 	}

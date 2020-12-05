@@ -26,13 +26,21 @@ public class SearchFlightTest extends BaseTest {
 		String title=obj.getInstance(MMTHomePage.class).getTitle();
 		
 		System.out.print(title);
-		System .out.pritnln("testing changs at remo-multiple places1");
+		System .out.println("testing changs at remo-multiple places1");
 	}
 	@Test(priority=2)
 	public void searchFlights() throws Exception
 	{
 		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
 		log4j.info("TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
+		LogStatus.pass("passed");
+	}
+	
+	@Test(priority=2)
+	public void deleteFlights() throws Exception
+	{
+		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
+		log4j.info("deleteFileAdded");
 		LogStatus.pass("passed");
 	}
 
