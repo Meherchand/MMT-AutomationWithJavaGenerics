@@ -34,7 +34,11 @@ public class SearchFlightTest extends BaseTest {
 		obj.getInstance(MMTHomePage.class).SearchFlight(ReadPropertyFile.get("fromcity"),ReadPropertyFile.get("toCity"));
 		log4j.info("TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT");
 		LogStatus.pass("passed");
+
 		System.out.print("testing merge conflicts2");
+
+		System.out.print("testingConflict1");
+
 	}
 	
 	@Test(priority=5)
