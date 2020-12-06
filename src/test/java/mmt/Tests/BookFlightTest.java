@@ -1,5 +1,11 @@
 package mmt.Tests;
 
+import org.testng.annotations.Test;
+
+import mmt.ReadPropertyFile.ReadPropertyFile;
+import mmt.Report.LogStatus;
+import mmt.WebPages.MMTHomePage;
+
 public class BookFlightTest extends BaseTest {
 
 	
@@ -17,9 +23,5 @@ public class BookFlightTest extends BaseTest {
 		LogStatus.pass("passed");
 		System.out.print("bookflight from mum-pune");
 	}
-	}
-		
-		
 
-}
 }
