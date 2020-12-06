@@ -48,6 +48,7 @@ public class SearchFlightTest extends BaseTest {
 		log4j.info("deleteFileAdded");
 		LogStatus.pass("passed");
 		System.out.print("testline added for delete");
+		System.out.print("verifying merge with two branches");
 	}
 
 }
